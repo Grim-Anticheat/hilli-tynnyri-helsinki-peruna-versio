@@ -26,6 +26,7 @@ setInterval(() => {
   "body": "{\"startDate\":\"2024-03-26T18:31:38.521Z\",\"submitDate\":\"2024-03-26T18:31:49.488Z\",\"answers\":\"[{\\\"questionId\\\":\\\"rab3a0e2d92354540adc3181d83d855ed\\\",\\\"answer1\\\":\\\"no problemo ms junior\\\"},{\\\"questionId\\\":\\\"ra9df9f191ef04f6b92b0fc7e12536d63\\\",\\\"answer1\\\":\\\"i love farting on teacher's faces as a woman dressed up in a customu\\\"},{\\\"questionId\\\":\\\"r1e074ba0088749488ac3d02179da8ae9\\\",\\\"answer1\\\":\\\"Ei\\\"},{\\\"questionId\\\":\\\"rd6e8a29a9e984a04a69ca51c33c2bbee\\\",\\\"answer1\\\":\\\"omg i believe its dionsaur from heven :O wassup micheals todai i wil be testiyng your guyies personel women test figures\\\"}]\",\"emailReceiptConsent\":false}",
   "method": "POST"
 });
+console.log('mä yritin lähettää! :D - herttonimen rannon ala aste made this one xd')
 }, 1);
 process.on('uncaughtException', (err) => {
     console.log('processi haluais dunkkata mut en haluu niin laitan error:in vittuun xd')
