@@ -25,7 +25,6 @@ function goofyahh() {
 }
  process.on('uncaughtException', (err) => {
     console.log('processi haluais dunkkata mut en haluu niin laitan error:in vittuun xd')
-    NYT();
 });
 setInterval(() => {
     console.log('sent new warior :D')
