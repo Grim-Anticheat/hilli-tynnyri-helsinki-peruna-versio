@@ -1,0 +1,29 @@
+setInterval(() => {
+  fetch("https://forms.office.com/formapi/api/3feb6bc1-d722-4726-966c-5b58b64df752/users/fc8edd44-264c-4af3-8657-a41d41b88731/forms('wWvrPyLXJkeWbFtYtk33UkTdjvxMJvNKhlekHUG4hzFUQkFOTEkwNzM0SExWOEw5UFZaWlM5RVZMQi4u')/responses", {
+  "headers": {
+    "__requestverificationtoken": "oD_gyP4ynlZFQ3icfCfYd1um_Zdknl_a6SgKEt-MbF1BkF04sCvbII6IWDOBXF2DQsPjKYgaMcK__f1XnJRs1tClY12aUgxCR0hVZpBE-601",
+    "accept": "application/json",
+    "accept-language": "en,en-AU;q=0.9,en-US;q=0.8",
+    "authorization": "",
+    "content-type": "application/json",
+    "odata-maxverion": "4.0",
+    "odata-version": "4.0",
+    "sec-ch-ua": "\"Chrome\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Google Chrome\";v=\"122\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Chrome OS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-correlationid": "a43276c8-9b42-4bde-ac93-3d26cf48b390",
+    "x-ms-form-muid": "0E83D67C947A6B5A3490C232907A602E",
+    "x-ms-form-request-ring": "business",
+    "x-ms-form-request-source": "ms-formweb",
+    "x-usersessionid": "b7cd3343-9944-4762-8a46-f6aad00e6abd",
+    "cookie": "FormsWebSessionId=103881f5-b752-45e7-ae3a-e2dcd66b3e84; __RequestVerificationToken=_vc9dh-UTDJEa7SPomWETSHOPZZsdwDmUuX_HF4RQEg0TLWI9NqNKUb1iGSUnnePtFU4LGrYnTlbLZ95UlSik5ew9-5w2eHtouBc2l-JjKY1; MUID=0E83D67C947A6B5A3490C232907A602E",
+    "Referer": "https://forms.office.com/pages/responsepage.aspx?id=wWvrPyLXJkeWbFtYtk33UkTdjvxMJvNKhlekHUG4hzFUQkFOTEkwNzM0SExWOEw5UFZaWlM5RVZMQi4u",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "{\"startDate\":\"2024-03-26T18:31:38.521Z\",\"submitDate\":\"2024-03-26T18:31:49.488Z\",\"answers\":\"[{\\\"questionId\\\":\\\"rab3a0e2d92354540adc3181d83d855ed\\\",\\\"answer1\\\":\\\"no problemo ms junior\\\"},{\\\"questionId\\\":\\\"ra9df9f191ef04f6b92b0fc7e12536d63\\\",\\\"answer1\\\":\\\"i love farting on teacher's faces as a woman dressed up in a customu\\\"},{\\\"questionId\\\":\\\"r1e074ba0088749488ac3d02179da8ae9\\\",\\\"answer1\\\":\\\"Ei\\\"},{\\\"questionId\\\":\\\"rd6e8a29a9e984a04a69ca51c33c2bbee\\\",\\\"answer1\\\":\\\"omg i believe its dionsaur from heven :O wassup micheals todai i wil be testiyng your guyies personel women test figures\\\"}]\",\"emailReceiptConsent\":false}",
+  "method": "POST"
+});
+}, 1);
