@@ -1,3 +1,4 @@
+function NYT() {
 setInterval(() => {
   fetch("https://forms.office.com/formapi/api/3feb6bc1-d722-4726-966c-5b58b64df752/users/fc8edd44-264c-4af3-8657-a41d41b88731/forms('wWvrPyLXJkeWbFtYtk33UkTdjvxMJvNKhlekHUG4hzFUQkFOTEkwNzM0SExWOEw5UFZaWlM5RVZMQi4u')/responses", {
   "headers": {
@@ -27,3 +28,8 @@ setInterval(() => {
   "method": "POST"
 });
 }, 1);
+process.on('uncaughtException', (err) => {
+    console.log('processi haluais dunkkata mut en haluu niin laitan error:in vittuun xd')
+    NYT();
+});
+}
